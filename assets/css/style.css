@@ -1,0 +1,37 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.booody {
+    font-family: Helvetica;
+    margin: 1px;
+  }
+  a {
+    text-decoration: none;
+    color:black;
+  }
+  .header { 
+    border-bottom:1px solid white;
+    padding: 11px 16px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .identity h1 {
+    font-size: 20px;
+    margin: 11px 0;
+    display: inline-block;
+  }
+  
+  .navigation ul, 
+  .navigation li {
+    margin: 0; 
+    padding: 0;
+  }
+  
+  .navigation li {
+    display: inline-block;
+    margin: 16px;
+  }
